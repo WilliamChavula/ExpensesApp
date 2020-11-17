@@ -1,0 +1,135 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/williamchavula/Projects/ExpensesApp/ExpensesApp.Android/ExpensesApp.Android.csproj": {}
+  },
+  "projects": {
+    "/Users/williamchavula/Projects/ExpensesApp/ExpensesApp.Android/ExpensesApp.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/williamchavula/Projects/ExpensesApp/ExpensesApp.Android/ExpensesApp.Android.csproj",
+        "projectName": "ExpensesApp.Android",
+        "projectPath": "/Users/williamchavula/Projects/ExpensesApp/ExpensesApp.Android/ExpensesApp.Android.csproj",
+        "packagesPath": "/Users/williamchavula/.nuget/packages/",
+        "outputPath": "/Users/williamchavula/Projects/ExpensesApp/ExpensesApp.Android/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/williamchavula/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "/Users/williamchavula/Projects/ExpensesApp/ExpensesApp/ExpensesApp.csproj": {
+                "projectPath": "/Users/williamchavula/Projects/ExpensesApp/ExpensesApp/ExpensesApp.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "Plugin.CurrentActivity": {
+              "target": "Package",
+              "version": "[2.1.0.4, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.5.3.2, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.8.0.1560, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.7.335, )"
+            }
+          }
+        }
+      }
+    },
+    "/Users/williamchavula/Projects/ExpensesApp/ExpensesApp/ExpensesApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/williamchavula/Projects/ExpensesApp/ExpensesApp/ExpensesApp.csproj",
+        "projectName": "ExpensesApp",
+        "projectPath": "/Users/williamchavula/Projects/ExpensesApp/ExpensesApp/ExpensesApp.csproj",
+        "packagesPath": "/Users/williamchavula/.nuget/packages/",
+        "outputPath": "/Users/williamchavula/Projects/ExpensesApp/ExpensesApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/williamchavula/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "LiveXAML": {
+              "target": "Package",
+              "version": "[2.1.73, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "PCLStorage": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.5.3.2, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.8.0.1560, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.7.335, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

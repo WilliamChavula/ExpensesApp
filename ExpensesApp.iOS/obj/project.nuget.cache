@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "U277o3+Iy2Ept7C3KS1rED4njmq7cn0OsLkrtJodYtVw5GssUQTFNb2cpN2xmuz+aVsK7dMw8rhLJVID6FuHfA==",
+  "success": true,
+  "projectFilePath": "/Users/williamchavula/Projects/ExpensesApp/ExpensesApp.iOS/ExpensesApp.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/williamchavula/.nuget/packages/livexaml/2.1.73/livexaml.2.1.73.nupkg.sha512",
+    "/Users/williamchavula/.nuget/packages/pclstorage/1.0.2/pclstorage.1.0.2.nupkg.sha512",
+    "/Users/williamchavula/.nuget/packages/sqlite-net-pcl/1.7.335/sqlite-net-pcl.1.7.335.nupkg.sha512",
+    "/Users/williamchavula/.nuget/packages/sqlitepclraw.bundle_green/2.0.3/sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
+    "/Users/williamchavula/.nuget/packages/sqlitepclraw.core/2.0.3/sqlitepclraw.core.2.0.3.nupkg.sha512",
+    "/Users/williamchavula/.nuget/packages/sqlitepclraw.provider.dynamic_cdecl/2.0.3/sqlitepclraw.provider.dynamic_cdecl.2.0.3.nupkg.sha512",
+    "/Users/williamchavula/.nuget/packages/system.buffers/4.4.0/system.buffers.4.4.0.nupkg.sha512",
+    "/Users/williamchavula/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/Users/williamchavula/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.2/system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "/Users/williamchavula/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "/Users/williamchavula/.nuget/packages/xamarin.forms/4.8.0.1560/xamarin.forms.4.8.0.1560.nupkg.sha512"
+  ],
+  "logs": []
+}
