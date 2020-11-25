@@ -18,7 +18,7 @@ namespace ExpensesApp.Droid.Dependencies
         {
             var intent = new Intent(Intent.ActionSend);
             intent.SetType("text/plain");
-            Android.Net.Uri documentUri = FileProvider.GetUriForFile(CrossCurrentActivity.Current.AppContext, "com.williamroosevelt.expensesapp.provider", new Java.IO.File(filePath));
+            Android.Net.Uri documentUri = FileProvider.GetUriForFile(CrossCurrentActivity.Current.AppContext, "com.williamroosevelt.expensessApp.provider", new Java.IO.File(filePath));
 
             intent.PutExtra(Intent.ExtraStream, documentUri);
             intent.PutExtra(Intent.ExtraText, title);
